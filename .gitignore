@@ -1,0 +1,23 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model and logs
+*.h5
+*.pkl
+*.joblib
+*.log
+
+# Environment files
+.env
+venv/
+.envrc
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
